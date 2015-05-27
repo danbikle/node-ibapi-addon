@@ -74,7 +74,7 @@ api.handlers[messageIds.clientError] = handleClientError;
 api.handlers[messageIds.disconnected] = handleDisconnected;
 api.handlers[messageIds.orderStatus] = handleOrderStatus;
 api.handlers[messageIds.openOrder] = handleOpenOrder;
-api.handlers[messageIds.openOrderEnd] = handleOpenOrder;
+api.handlers[messageIds.openOrderEnd] = handleOpenOrderEnd;
 
 var connected = api.connect('127.0.0.1', 7496, 0);
 
